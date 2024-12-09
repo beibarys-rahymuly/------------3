@@ -1,0 +1,224 @@
+.div1 {
+    background-color: rgb(255, 255, 255);
+    width: 160px;
+    border-radius: 999px;
+    height: 150px;
+}
+.div2 {
+    background-color: rgba(255, 255, 255, 0);
+    width: 500px;
+    border: 3px solid blueviolet;
+    border-radius: 19px;
+    height: 55px;
+    color: black;
+  
+}
+.div3 {
+    padding: 30px;
+    width: fit-content;
+}
+.div3 a {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 5px;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+
+}
+.div3 a:hover {
+    background-color: blueviolet;
+    color: white;
+
+
+}
+header {
+    background-color: rgba(255, 255, 255, 0.345);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+.div4 {
+    background-color: aqua;
+    width: 70px;
+    height: 70px;
+}
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+
+main a {
+    flex: 1;
+}
+
+body {
+    background: url(https://img.ixbt.site/live/images/original/31/98/97/2023/08/22/13847b747e.jpg);
+}
+.gta {
+    width: 80px;
+    transition: 0.5s ease-in-out;
+}
+.gta:hover {
+}
+.front-face header {
+    justify-content: space-between;
+}
+.front-face .logo img {
+    width: 48px;
+    margin-right: 10px;
+}
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.front-face .chip {
+    width: 50px;
+}
+.hotbar div {
+    background-color: rgba(255, 255, 255, 0.117);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: fit-content;
+    right: 0px;
+    z-index: 1;
+    top: 10px;
+}
+.hotbar {
+    top: 400px;
+    
+}
+.hotbar p {
+    text-align: center;
+    color: white;
+}
+.hotbar .credit-card, .cvv {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+.hotbar .cvv {
+    margin-left: 5px;
+    margin-right: 0px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 65px;
+}
+* {box-sizing: border-box}
+ 
+.container {
+    padding: 16px;
+    width: 1500px;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 59px;
+    
+}
+input [type=text] input [type=password] {
+    width: 100%;
+    padding: 16px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: blue;
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  hr {
+    border: 1px solid white;
+    margin-bottom: 25px;
+  }
+  .registerbtn {
+    background-color: forestgreen;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 400px;
+    opacity: 0.9;
+  }
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  .signin {
+    background-color: gray;
+    text-align: center;
+    opacity: 0.9;
+  }
+  * {
+    box-sizing: border-box;
+}
+
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+}
+
+
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
+.price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+
+.price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+
+.price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.price .grey {
+    background-color: #eee;
+    font-size: 20px;
+}
+
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .columns {
+        width: 100%;
+    }
+}
+

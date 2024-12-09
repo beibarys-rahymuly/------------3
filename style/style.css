@@ -1,0 +1,25 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+div {
+    background-color: black;
+    width: fit-content;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 11px;
+}
+img {
+    width: 250px;
+    height: auto;
+}
+audio {
+    width: 250px;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
